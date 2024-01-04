@@ -53,9 +53,8 @@ public:
      
     	r_1 = -(EntityPos.y - LocalPlayerPos.y);
     	r_2 = EntityPos.x - LocalPlayerPos.x;
-    	float Yaw = angle - 90.0f;
-     
-    	float yawToRadian = Yaw * (float)(M_PI / 180.0F);
+    	
+    	float yawToRadian = angle * (float)(M_PI / 180.0F);
     	x_1 = (float)(r_2 * (float)cos((double)(yawToRadian)) - r_1 * sin((double)(yawToRadian))) / 20;
     	y_1 = (float)(r_2 * (float)sin((double)(yawToRadian)) + r_1 * cos((double)(yawToRadian))) / 20;
      
