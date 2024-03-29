@@ -3,7 +3,7 @@
 constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
 constexpr long OFF_LEVEL = 0x16f9090;                         //[Miscellaneous]->LevelName
 constexpr long OFF_LOCAL_PLAYER = 0x2182bf8;                  //[Miscellaneous]->LocalPlayer
-constexpr long OFF_ENTITY_LIST = 0x1DD40F8;                   //[Miscellaneous]->cl_entitylist
+constexpr long OFF_ENTITY_LIST = 0x1dd40f8;                   //[Miscellaneous]->cl_entitylist
 
 constexpr long OFFSET_IN_FORWARD = 0x073f26c8;                       //[Buttons]->in_forward
 constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2af0;             //[Buttons]->m_traversalStartTime
