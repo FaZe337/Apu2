@@ -57,7 +57,7 @@ constexpr long OFF_TARGETZOOMFOV = 0x15d0 + 0x00bc;           //m_playerData + m
 
 // Glow
 constexpr long HIGHLIGHT_TYPE_SIZE = 0x34;  
-constexpr long OFF_GLOW_ENABLE = 0x294;                       //Script_Highlight_GetCurrentContext
+constexpr long OFF_GLOW_ENABLE = 0x26c;                       //Script_Highlight_GetCurrentContext
 constexpr long OFF_GLOW_THROUGH_WALL = 0x26c;                 //Script_Highlight_SetVisibilityType
 constexpr long OFF_GLOW_FIX = 0x268;
 constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x28C;                 //[DT_HighlightSettings].m_highlightServerActiveStates    
